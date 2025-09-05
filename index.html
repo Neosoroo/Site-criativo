@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Curso de Programação - Start</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Curso de Programação - Start</h1>
+    <p>Aprendendo Python com desafios divertidos!</p>
+  </header>
+
+  <main>
+    <section class="aula">
+      <h2>Aula 1 - Introdução ao Print e Variáveis</h2>
+      <pre><code>print("I Competição de Programação da Start")
+ano = "II"
+print(ano, "Competição de Programação da Start")
+print(f"{ano} Competição de Programação da Start")</code></pre>
+    </section>
+
+    <section class="aula">
+      <h2>Aula 2 - Campanha de Leitura</h2>
+      <p>Rodrigo leu um livro de cada categoria. Quantos pontos ele acumulou?</p>
+      <pre><code>livro_ficcao = 10
+livro_nficcao = 8
+livro_infantil = 6
+
+pontos_rodrigo = livro_ficcao + livro_nficcao + livro_infantil
+print(f"Os pontos totais do Rodrigo são: {pontos_rodrigo}")</code></pre>
+      <p><strong>Desafio:</strong> Ana leu 2 livros de ficção e 5 infantis. Calcule os pontos dela e o total dos dois juntos!</p>
+    </section>
+
+    <section class="aula">
+      <h2>Aula 3 - Divisão do Tesouro</h2>
+      <p>João encontrou um envelope com figurinhas e quer dividir de forma justa.</p>
+      <pre><code>total_figurinhas = int(input("Digite o total de figurinhas: "))
+numero_amigos = int(input("Digite o número de amigos: "))
+
+figurinhas_amigos = total_figurinhas // (numero_amigos + 2)
+figurinhas_joao = 2 * figurinhas_amigos
+
+print(f"João recebeu {figurinhas_joao} figurinhas.")</code></pre>
+      <p><strong>Desafio:</strong> João encontrou figurinhas extras na mochila. Refaça a conta com o novo total!</p>
+    </section>
+
+    <section class="aula">
+      <h2>Aula 4 - Excursão no Bondinho</h2>
+      <p>Verifique se todos cabem no bondinho com capacidade máxima.</p>
+      <pre><code>numero_alunos = int(input("Digite a quantidade de alunos: "))
+numero_monitores = int(input("Digite a quantidade de monitores: "))
+
+if numero_alunos + numero_monitores <= 50:
+    print("Pode ir")
+else:
+    print("Não pode ir")</code></pre>
+      <p><strong>Desafio:</strong> Agora o bondinho só leva 30 pessoas e vão 8 professores. Ainda dá pra ir?</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Projeto Educativo em Python</p>
+  </footer>
+</body>
+</html>
